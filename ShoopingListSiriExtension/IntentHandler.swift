@@ -131,7 +131,6 @@ extension IntentHandler : INSetTaskAttributeIntentHandling {
                 let itemName = targetTask.title.spokenPhrase
                 activity.userInfo = [NSString(string: "item"):NSString(string: itemName)]
                 completion(INSetTaskAttributeIntentResponse(code: .failure, userActivity: activity))
-                print("Something to remove, later.")
             }
         }
     }
