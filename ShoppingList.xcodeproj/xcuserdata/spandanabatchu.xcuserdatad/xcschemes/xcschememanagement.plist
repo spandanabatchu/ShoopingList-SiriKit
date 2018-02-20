@@ -18,6 +18,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>ShoopingListSiriExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ShoppingList.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -56,6 +61,11 @@
 			<true/>
 		</dict>
 		<key>12C4239B2031BFEF00611840</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12DB2DC7203AF721009E6034</key>
 		<dict>
 			<key>primary</key>
 			<true/>

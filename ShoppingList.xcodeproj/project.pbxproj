@@ -23,7 +23,29 @@
 		12C423892031BC6400611840 /* EntityGeneratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6972031A1B000509048 /* EntityGeneratable.swift */; };
 		12C4238C2031BC7100611840 /* NSManagedObject+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */; };
 		12C4238E2031BC7600611840 /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */; };
+		12DB2DCB203AF721009E6034 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2DCA203AF721009E6034 /* IntentHandler.swift */; };
+		12DB2DCF203AF721009E6034 /* ShoopingListSiriExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12DB2DD4203BF709009E6034 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6992031A21600509048 /* Item.swift */; };
+		12DB2DD5203BF70D009E6034 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDE9202DC04D006F284A /* DatabaseManager.swift */; };
+		12DB2DD6203BF710009E6034 /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDC6202DA539006F284A /* ShoppingList.xcdatamodeld */; };
+		12DB2DD7203BF905009E6034 /* EntityGeneratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6972031A1B000509048 /* EntityGeneratable.swift */; };
+		12DB2DD8203BF909009E6034 /* ItemEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FE203AEE39006943AC /* ItemEntity+CoreDataClass.swift */; };
+		12DB2DD9203BF909009E6034 /* ItemEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FF203AEE39006943AC /* ItemEntity+CoreDataProperties.swift */; };
+		12DB2DDA203BF90F009E6034 /* CoreDataStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDEC202DC10D006F284A /* CoreDataStackController.swift */; };
+		12DB2DDB203BF90F009E6034 /* CDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFA202DC6C2006F284A /* CDError.swift */; };
+		12DB2DDC203BF90F009E6034 /* NSManagedObject+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */; };
+		12DB2DDD203BF90F009E6034 /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12DB2DCD203AF721009E6034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122BDDB4202DA539006F284A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12DB2DC7203AF721009E6034;
+			remoteInfo = ShoopingListSiriExtension;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		120DD69220319B5100509048 /* Embed App Extensions */ = {
@@ -32,6 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				12DB2DCF203AF721009E6034 /* ShoopingListSiriExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,10 +93,21 @@
 		122BDE03202DCE7B006F284A /* ShoppingList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoppingList.entitlements; sourceTree = "<group>"; };
 		125BD4FA203300C700FA244F /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		12C4239D2031BFEF00611840 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShoopingListSiriExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DB2DCA203AF721009E6034 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		12DB2DCC203AF721009E6034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DB2DD3203AFCB6009E6034 /* ShoopingListSiriExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoopingListSiriExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		122BDDB9202DA539006F284A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DB2DC5203AF721009E6034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,6 +160,7 @@
 			children = (
 				122BDDBE202DA539006F284A /* ShoppingList */,
 				122BDDDA202DBD78006F284A /* ShoppingListKit */,
+				12DB2DC9203AF721009E6034 /* ShoopingListSiriExtension */,
 				120DD68220319B5100509048 /* Frameworks */,
 				122BDDBD202DA539006F284A /* Products */,
 			);
@@ -135,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				122BDDBC202DA539006F284A /* ShoppingList.app */,
+				12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +210,16 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		12DB2DC9203AF721009E6034 /* ShoopingListSiriExtension */ = {
+			isa = PBXGroup;
+			children = (
+				12DB2DD3203AFCB6009E6034 /* ShoopingListSiriExtension.entitlements */,
+				12DB2DCA203AF721009E6034 /* IntentHandler.swift */,
+				12DB2DCC203AF721009E6034 /* Info.plist */,
+			);
+			path = ShoopingListSiriExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,11 +236,29 @@
 			buildRules = (
 			);
 			dependencies = (
+				12DB2DCE203AF721009E6034 /* PBXTargetDependency */,
 			);
 			name = ShoppingList;
 			productName = ShoppingList;
 			productReference = 122BDDBC202DA539006F284A /* ShoppingList.app */;
 			productType = "com.apple.product-type.application";
+		};
+		12DB2DC7203AF721009E6034 /* ShoopingListSiriExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DB2DD2203AF721009E6034 /* Build configuration list for PBXNativeTarget "ShoopingListSiriExtension" */;
+			buildPhases = (
+				12DB2DC4203AF721009E6034 /* Sources */,
+				12DB2DC5203AF721009E6034 /* Frameworks */,
+				12DB2DC6203AF721009E6034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoopingListSiriExtension;
+			productName = ShoopingListSiriExtension;
+			productReference = 12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +272,18 @@
 				TargetAttributes = {
 					122BDDBB202DA539006F284A = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					12DB2DC7203AF721009E6034 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -231,6 +307,7 @@
 			projectRoot = "";
 			targets = (
 				122BDDBB202DA539006F284A /* ShoppingList */,
+				12DB2DC7203AF721009E6034 /* ShoopingListSiriExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +320,13 @@
 				122BDDCD202DA539006F284A /* LaunchScreen.storyboard in Resources */,
 				122BDDCA202DA539006F284A /* Assets.xcassets in Resources */,
 				122BDDC5202DA539006F284A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DB2DC6203AF721009E6034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +353,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12DB2DC4203AF721009E6034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DB2DDD203BF90F009E6034 /* NSManagedObjectContext+Additions.swift in Sources */,
+				12DB2DD4203BF709009E6034 /* Item.swift in Sources */,
+				12DB2DDB203BF90F009E6034 /* CDError.swift in Sources */,
+				12DB2DD9203BF909009E6034 /* ItemEntity+CoreDataProperties.swift in Sources */,
+				12DB2DD8203BF909009E6034 /* ItemEntity+CoreDataClass.swift in Sources */,
+				12DB2DD6203BF710009E6034 /* ShoppingList.xcdatamodeld in Sources */,
+				12DB2DCB203AF721009E6034 /* IntentHandler.swift in Sources */,
+				12DB2DDC203BF90F009E6034 /* NSManagedObject+Operations.swift in Sources */,
+				12DB2DDA203BF90F009E6034 /* CoreDataStackController.swift in Sources */,
+				12DB2DD7203BF905009E6034 /* EntityGeneratable.swift in Sources */,
+				12DB2DD5203BF70D009E6034 /* DatabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12DB2DCE203AF721009E6034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12DB2DC7203AF721009E6034 /* ShoopingListSiriExtension */;
+			targetProxy = 12DB2DCD203AF721009E6034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		122BDDC3202DA539006F284A /* Main.storyboard */ = {
@@ -432,6 +542,40 @@
 			};
 			name = Release;
 		};
+		12DB2DD0203AF721009E6034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShoopingListSiriExtension/ShoopingListSiriExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGQMH8WW3;
+				INFOPLIST_FILE = ShoopingListSiriExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutualmobile.ShoppingList.Siri.ShoopingListSiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12DB2DD1203AF721009E6034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShoopingListSiriExtension/ShoopingListSiriExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGQMH8WW3;
+				INFOPLIST_FILE = ShoopingListSiriExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutualmobile.ShoppingList.Siri.ShoopingListSiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +593,15 @@
 			buildConfigurations = (
 				122BDDD2202DA539006F284A /* Debug */,
 				122BDDD3202DA539006F284A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12DB2DD2203AF721009E6034 /* Build configuration list for PBXNativeTarget "ShoopingListSiriExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12DB2DD0203AF721009E6034 /* Debug */,
+				12DB2DD1203AF721009E6034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
