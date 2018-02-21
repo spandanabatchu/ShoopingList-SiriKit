@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        setupDatabase()
         return true
     }
 
@@ -58,18 +57,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         return true
-    }
-    
-
-
-    private func setupDatabase() {
-        let dbManager = DatabaseManager.sharedDBManager
-        do {
-            try dbManager.setUpDBConnection()
-        }
-        catch let error as NSError {
-            print(error.localizedDescription)
-        }
     }
 
 }

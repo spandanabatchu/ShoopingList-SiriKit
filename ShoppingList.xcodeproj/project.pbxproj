@@ -7,34 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12273A00203AEE39006943AC /* ItemEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FE203AEE39006943AC /* ItemEntity+CoreDataClass.swift */; };
-		12273A01203AEE39006943AC /* ItemEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FF203AEE39006943AC /* ItemEntity+CoreDataProperties.swift */; };
 		122BDDC0202DA539006F284A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDBF202DA539006F284A /* AppDelegate.swift */; };
 		122BDDC2202DA539006F284A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDC1202DA539006F284A /* ViewController.swift */; };
 		122BDDC5202DA539006F284A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122BDDC3202DA539006F284A /* Main.storyboard */; };
 		122BDDCA202DA539006F284A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122BDDC9202DA539006F284A /* Assets.xcassets */; };
 		122BDDCD202DA539006F284A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122BDDCB202DA539006F284A /* LaunchScreen.storyboard */; };
 		125BD4FB203300C700FA244F /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125BD4FA203300C700FA244F /* ShoppingListTableViewCell.swift */; };
-		12C4237A2031BB8300611840 /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDC6202DA539006F284A /* ShoppingList.xcdatamodeld */; };
 		12C423812031BC4500611840 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6992031A21600509048 /* Item.swift */; };
-		12C423832031BC5400611840 /* CDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFA202DC6C2006F284A /* CDError.swift */; };
-		12C423862031BC5A00611840 /* CoreDataStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDEC202DC10D006F284A /* CoreDataStackController.swift */; };
-		12C423872031BC5F00611840 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDE9202DC04D006F284A /* DatabaseManager.swift */; };
-		12C423892031BC6400611840 /* EntityGeneratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6972031A1B000509048 /* EntityGeneratable.swift */; };
-		12C4238C2031BC7100611840 /* NSManagedObject+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */; };
-		12C4238E2031BC7600611840 /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */; };
 		12DB2DCB203AF721009E6034 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2DCA203AF721009E6034 /* IntentHandler.swift */; };
 		12DB2DCF203AF721009E6034 /* ShoopingListSiriExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		12DB2DD4203BF709009E6034 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6992031A21600509048 /* Item.swift */; };
-		12DB2DD5203BF70D009E6034 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDE9202DC04D006F284A /* DatabaseManager.swift */; };
-		12DB2DD6203BF710009E6034 /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDC6202DA539006F284A /* ShoppingList.xcdatamodeld */; };
-		12DB2DD7203BF905009E6034 /* EntityGeneratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DD6972031A1B000509048 /* EntityGeneratable.swift */; };
-		12DB2DD8203BF909009E6034 /* ItemEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FE203AEE39006943AC /* ItemEntity+CoreDataClass.swift */; };
-		12DB2DD9203BF909009E6034 /* ItemEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122739FF203AEE39006943AC /* ItemEntity+CoreDataProperties.swift */; };
-		12DB2DDA203BF90F009E6034 /* CoreDataStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDEC202DC10D006F284A /* CoreDataStackController.swift */; };
-		12DB2DDB203BF90F009E6034 /* CDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFA202DC6C2006F284A /* CDError.swift */; };
-		12DB2DDC203BF90F009E6034 /* NSManagedObject+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */; };
-		12DB2DDD203BF90F009E6034 /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */; };
+		12DB2DE5203D50AD009E6034 /* ShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2DE4203D50AD009E6034 /* ShoppingListUITests.swift */; };
+		12DB2DED203D76C2009E6034 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2DEC203D76C2009E6034 /* DatabaseManager.swift */; };
+		12DB2DF0203D7B1B009E6034 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2DEC203D76C2009E6034 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +29,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 12DB2DC7203AF721009E6034;
 			remoteInfo = ShoopingListSiriExtension;
+		};
+		12DB2DE7203D50AD009E6034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122BDDB4202DA539006F284A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122BDDBB202DA539006F284A;
+			remoteInfo = ShoppingList;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,23 +65,14 @@
 
 /* Begin PBXFileReference section */
 		120DD68320319B5100509048 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		120DD6972031A1B000509048 /* EntityGeneratable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityGeneratable.swift; sourceTree = "<group>"; };
 		120DD6992031A21600509048 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		122739FE203AEE39006943AC /* ItemEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		122739FF203AEE39006943AC /* ItemEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		122BDDBC202DA539006F284A /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		122BDDBF202DA539006F284A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		122BDDC1202DA539006F284A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		122BDDC4202DA539006F284A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		122BDDC7202DA539006F284A /* ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList.xcdatamodel; sourceTree = "<group>"; };
 		122BDDC9202DA539006F284A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122BDDCC202DA539006F284A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		122BDDCE202DA539006F284A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		122BDDE9202DC04D006F284A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		122BDDEC202DC10D006F284A /* CoreDataStackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackController.swift; sourceTree = "<group>"; };
-		122BDDFA202DC6C2006F284A /* CDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDError.swift; sourceTree = "<group>"; };
-		122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Additions.swift"; sourceTree = "<group>"; };
-		122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Operations.swift"; sourceTree = "<group>"; };
 		122BDE03202DCE7B006F284A /* ShoppingList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoppingList.entitlements; sourceTree = "<group>"; };
 		125BD4FA203300C700FA244F /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		12C4239D2031BFEF00611840 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
@@ -97,6 +80,10 @@
 		12DB2DCA203AF721009E6034 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		12DB2DCC203AF721009E6034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12DB2DD3203AFCB6009E6034 /* ShoopingListSiriExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoopingListSiriExtension.entitlements; sourceTree = "<group>"; };
+		12DB2DE2203D50AD009E6034 /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DB2DE4203D50AD009E6034 /* ShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITests.swift; sourceTree = "<group>"; };
+		12DB2DE6203D50AD009E6034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DB2DEC203D76C2009E6034 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +95,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		12DB2DC5203AF721009E6034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DB2DDF203D50AD009E6034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,41 +120,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		12273A02203AF266006943AC /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				120DD6972031A1B000509048 /* EntityGeneratable.swift */,
-				122BDDE9202DC04D006F284A /* DatabaseManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		12273A03203AF278006943AC /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				122739FE203AEE39006943AC /* ItemEntity+CoreDataClass.swift */,
-				122739FF203AEE39006943AC /* ItemEntity+CoreDataProperties.swift */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		12273A04203AF288006943AC /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				122BDDEC202DC10D006F284A /* CoreDataStackController.swift */,
-				122BDDFA202DC6C2006F284A /* CDError.swift */,
-				122BDDFD202DC6F6006F284A /* NSManagedObject+Operations.swift */,
-				122BDDFC202DC6F6006F284A /* NSManagedObjectContext+Additions.swift */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
 		122BDDB3202DA539006F284A = {
 			isa = PBXGroup;
 			children = (
 				122BDDBE202DA539006F284A /* ShoppingList */,
 				122BDDDA202DBD78006F284A /* ShoppingListKit */,
 				12DB2DC9203AF721009E6034 /* ShoopingListSiriExtension */,
+				12DB2DE3203D50AD009E6034 /* ShoppingListUITests */,
 				120DD68220319B5100509048 /* Frameworks */,
 				122BDDBD202DA539006F284A /* Products */,
 			);
@@ -171,6 +137,7 @@
 			children = (
 				122BDDBC202DA539006F284A /* ShoppingList.app */,
 				12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */,
+				12DB2DE2203D50AD009E6034 /* ShoppingListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,21 +160,10 @@
 		122BDDDA202DBD78006F284A /* ShoppingListKit */ = {
 			isa = PBXGroup;
 			children = (
-				12273A02203AF266006943AC /* Manager */,
-				12273A03203AF278006943AC /* DataModel */,
-				122BDDE8202DC02B006F284A /* Database */,
-				12273A04203AF288006943AC /* CoreData */,
+				120DD6992031A21600509048 /* Item.swift */,
+				12DB2DEC203D76C2009E6034 /* DatabaseManager.swift */,
 			);
 			path = ShoppingListKit;
-			sourceTree = "<group>";
-		};
-		122BDDE8202DC02B006F284A /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				122BDDC6202DA539006F284A /* ShoppingList.xcdatamodeld */,
-				120DD6992031A21600509048 /* Item.swift */,
-			);
-			path = Database;
 			sourceTree = "<group>";
 		};
 		12DB2DC9203AF721009E6034 /* ShoopingListSiriExtension */ = {
@@ -218,6 +174,15 @@
 				12DB2DCC203AF721009E6034 /* Info.plist */,
 			);
 			path = ShoopingListSiriExtension;
+			sourceTree = "<group>";
+		};
+		12DB2DE3203D50AD009E6034 /* ShoppingListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12DB2DE4203D50AD009E6034 /* ShoppingListUITests.swift */,
+				12DB2DE6203D50AD009E6034 /* Info.plist */,
+			);
+			path = ShoppingListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +225,24 @@
 			productReference = 12DB2DC8203AF721009E6034 /* ShoopingListSiriExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		12DB2DE1203D50AD009E6034 /* ShoppingListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DB2DEB203D50AD009E6034 /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */;
+			buildPhases = (
+				12DB2DDE203D50AD009E6034 /* Sources */,
+				12DB2DDF203D50AD009E6034 /* Frameworks */,
+				12DB2DE0203D50AD009E6034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12DB2DE8203D50AD009E6034 /* PBXTargetDependency */,
+			);
+			name = ShoppingListUITests;
+			productName = ShoppingListUITests;
+			productReference = 12DB2DE2203D50AD009E6034 /* ShoppingListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,6 +274,11 @@
 							};
 						};
 					};
+					12DB2DE1203D50AD009E6034 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 122BDDBB202DA539006F284A;
+					};
 				};
 			};
 			buildConfigurationList = 122BDDB7202DA539006F284A /* Build configuration list for PBXProject "ShoppingList" */;
@@ -308,6 +296,7 @@
 			targets = (
 				122BDDBB202DA539006F284A /* ShoppingList */,
 				12DB2DC7203AF721009E6034 /* ShoopingListSiriExtension */,
+				12DB2DE1203D50AD009E6034 /* ShoppingListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,6 +319,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12DB2DE0203D50AD009E6034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -337,19 +333,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12273A01203AEE39006943AC /* ItemEntity+CoreDataProperties.swift in Sources */,
-				12273A00203AEE39006943AC /* ItemEntity+CoreDataClass.swift in Sources */,
-				12C4237A2031BB8300611840 /* ShoppingList.xcdatamodeld in Sources */,
-				12C423892031BC6400611840 /* EntityGeneratable.swift in Sources */,
 				122BDDC2202DA539006F284A /* ViewController.swift in Sources */,
-				12C423832031BC5400611840 /* CDError.swift in Sources */,
-				12C423862031BC5A00611840 /* CoreDataStackController.swift in Sources */,
 				12C423812031BC4500611840 /* Item.swift in Sources */,
+				12DB2DED203D76C2009E6034 /* DatabaseManager.swift in Sources */,
 				125BD4FB203300C700FA244F /* ShoppingListTableViewCell.swift in Sources */,
-				12C4238C2031BC7100611840 /* NSManagedObject+Operations.swift in Sources */,
-				12C4238E2031BC7600611840 /* NSManagedObjectContext+Additions.swift in Sources */,
 				122BDDC0202DA539006F284A /* AppDelegate.swift in Sources */,
-				12C423872031BC5F00611840 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,17 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12DB2DDD203BF90F009E6034 /* NSManagedObjectContext+Additions.swift in Sources */,
 				12DB2DD4203BF709009E6034 /* Item.swift in Sources */,
-				12DB2DDB203BF90F009E6034 /* CDError.swift in Sources */,
-				12DB2DD9203BF909009E6034 /* ItemEntity+CoreDataProperties.swift in Sources */,
-				12DB2DD8203BF909009E6034 /* ItemEntity+CoreDataClass.swift in Sources */,
-				12DB2DD6203BF710009E6034 /* ShoppingList.xcdatamodeld in Sources */,
 				12DB2DCB203AF721009E6034 /* IntentHandler.swift in Sources */,
-				12DB2DDC203BF90F009E6034 /* NSManagedObject+Operations.swift in Sources */,
-				12DB2DDA203BF90F009E6034 /* CoreDataStackController.swift in Sources */,
-				12DB2DD7203BF905009E6034 /* EntityGeneratable.swift in Sources */,
-				12DB2DD5203BF70D009E6034 /* DatabaseManager.swift in Sources */,
+				12DB2DF0203D7B1B009E6034 /* DatabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DB2DDE203D50AD009E6034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DB2DE5203D50AD009E6034 /* ShoppingListUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +366,11 @@
 			isa = PBXTargetDependency;
 			target = 12DB2DC7203AF721009E6034 /* ShoopingListSiriExtension */;
 			targetProxy = 12DB2DCD203AF721009E6034 /* PBXContainerItemProxy */;
+		};
+		12DB2DE8203D50AD009E6034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122BDDBB202DA539006F284A /* ShoppingList */;
+			targetProxy = 12DB2DE7203D50AD009E6034 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -576,6 +569,38 @@
 			};
 			name = Release;
 		};
+		12DB2DE9203D50AD009E6034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NXB2CZKX;
+				INFOPLIST_FILE = ShoppingListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutualmobile.ShoppingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingList;
+			};
+			name = Debug;
+		};
+		12DB2DEA203D50AD009E6034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NXB2CZKX;
+				INFOPLIST_FILE = ShoppingListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutualmobile.ShoppingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingList;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,20 +631,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		122BDDC6202DA539006F284A /* ShoppingList.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				122BDDC7202DA539006F284A /* ShoppingList.xcdatamodel */,
+		12DB2DEB203D50AD009E6034 /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12DB2DE9203D50AD009E6034 /* Debug */,
+				12DB2DEA203D50AD009E6034 /* Release */,
 			);
-			currentVersion = 122BDDC7202DA539006F284A /* ShoppingList.xcdatamodel */;
-			path = ShoppingList.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-/* End XCVersionGroup section */
+/* End XCConfigurationList section */
 	};
 	rootObject = 122BDDB4202DA539006F284A /* Project object */;
 }

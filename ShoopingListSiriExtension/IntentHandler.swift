@@ -42,27 +42,13 @@ class IntentHandler: INExtension {
         return tasks
     }
     
-    private func setupDatabase() {
-        let dbManager = DatabaseManager.sharedDBManager
-        do {
-            try dbManager.setUpDBConnection()
-        }
-        catch let error as NSError {
-            print(error.localizedDescription)
-        }
-    }
-    
     private func addItem(text: String) {
-        do {
-            let item = Item(name: text.lowercased(), purchased: false)
-            try DatabaseManager.sharedDBManager.createAndSave(item, save: true)
-        } catch let error {
-            print(error)
-        }
+        let item = Item(name: text.lowercased(), purchased: false)
+        DatabaseManager.sharedDBManager.add(item)
     }
     
     private func isUserLoggedIn() -> Bool {
-        return false
+        return true
     }
     
 }
@@ -83,7 +69,6 @@ extension IntentHandler: INAddTasksIntentHandling {
         }
         tasks = createTasks(fromTitles: taskTitlesStrings)
         //3. Add the task to the database
-        setupDatabase()
         for eachItem in taskTitlesStrings {
             addItem(text: eachItem)
         }
@@ -109,8 +94,7 @@ extension IntentHandler : INSetTaskAttributeIntentHandling {
     func resolveTargetTask(for intent: INSetTaskAttributeIntent, with completion: @escaping (INTaskResolutionResult) -> Swift.Void) {
         if let targetTask = intent.targetTask {
             let title = targetTask.title.spokenPhrase
-            setupDatabase()
-            if DatabaseManager.sharedDBManager.isItemAvailable(itemName: title.lowercased()) {
+            if let _ = DatabaseManager.sharedDBManager.fetchItem(itemName: title.lowercased()) {
                 completion(INTaskResolutionResult.success(with: targetTask))
             } else {
                 completion(INTaskResolutionResult.unsupported())
@@ -145,7 +129,6 @@ extension IntentHandler : INSetTaskAttributeIntentHandling {
         //2. Check for the status of the task and mark that as done on the database
         let status = intent.status
         if status == .completed {
-            setupDatabase()
             DatabaseManager.sharedDBManager.purchaseItem(itemName: title.spokenPhrase.lowercased())
         }
         //3. Send response to Siri

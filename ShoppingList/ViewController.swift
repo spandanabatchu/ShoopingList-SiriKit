@@ -12,12 +12,8 @@ class ShoppingListDataProvider: NSObject {
     var items: [Item]?
     
     func listOfItems() -> [Item]? {
-        do {
-            items = try DatabaseManager.sharedDBManager.shoppingCart()
+            items =  DatabaseManager.sharedDBManager.shoppingCart()
             return items
-        } catch {
-            return nil
-        }
     }
 }
 
@@ -128,14 +124,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         textField.placeholder = "Apples"
     }
     
-    func addItem(text: String) {
-        do {
-            let item = Item(name: text.lowercased(), purchased: false)
-            try DatabaseManager.sharedDBManager.createAndSave(item, save: true)
-            fetchItems()
-        } catch let error {
-            print(error)
-        }
+    private func addItem(text: String) {
+        let item = Item(name: text.lowercased(), purchased: false)
+        DatabaseManager.sharedDBManager.add(item)
+        fetchItems()
     }
     
     // MARK: - Private

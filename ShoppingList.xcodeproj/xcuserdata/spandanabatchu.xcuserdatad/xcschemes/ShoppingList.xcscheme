@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12A7F00B203592DB00655015"
+               BlueprintIdentifier = "12DB2DE1203D50AD009E6034"
                BuildableName = "ShoppingListUITests.xctest"
                BlueprintName = "ShoppingListUITests"
                ReferencedContainer = "container:ShoppingList.xcodeproj">
